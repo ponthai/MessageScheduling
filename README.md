@@ -12,11 +12,13 @@
 + Each event are tested with vary frequency from 100Msg. - 500Msg.
 
 + Each of testing will be generated the 2 csv. files that will include name
-  - ReceiveTweets file { $ServerTime_ReceiveTweets_Msg.Frequency_$SchedulerName{F:R:P}.csv }
+  - ReceiveTweets file {$ServerTime_ReceiveTweets_Msg.Frequency_$SchedulerName{F:R:P}.csv}
     - Ex. 1442069812135_ReceiveTweets_100_P1.csv
-  - SnapShot file { $ServerTime_SnapShot.csv }
+  - SnapShot file {$ServerTime_SnapShot.csv}
     - Ex. 1442069812135_SnapShot.csv
   
 + The definition of field in record of ReceiveTweets file is
+
 |Msg.Order|ServerTime|Related{0:1}|Urgent{0:1}|Unique{0:1}|CriticalMsg.{0:1}|RAW_TOPIC|ArrivalTime|Msg.Size(Byte)|RAW_INDEX|RAW_TWEETS|
+
 Ex. 10,1442069813774,0,0,1,0,off-topic,0,73,17,Been jammin to it ever since.
