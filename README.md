@@ -1,13 +1,15 @@
 # MessageScheduling
-+ This is repository of critical message scheduling for disaster response and recovery phases based on CrisisLexT6 (Crisislex.org)
-Collecting from Server-side proxy application.
-+ It contain 6 crisis event below.
++ This is repository of critical message scheduling for disaster response and recovery phases based on CrisisLexT6 (Crisislex.org) collecting from Server-side proxy application.
+
++ It contains 6 crisis event below.
   - 2012_Sandy_Hurricane, 
   - 2013_Alberta_Floods, 
   - 2013_Boston_Bombings, 
   - 2013_Oklahoma_Tornado, 
   - 2013_Queensland_Floods, 
   - 2013_West_Texas_Explosion
+
++ Each event are tested with vary frequency from 100Msg. - 500Msg.
 
 + Each of testing will be generated the 2 csv. files that will include name
   - ReceiveTweets file { $ServerTime_ReceiveTweets_Msg.Frequency_$SchedulerName{F:R:P}.csv }
