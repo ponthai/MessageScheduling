@@ -15,7 +15,7 @@
 + Each event are tested by varying frequency from 100Msg. - 500Msg.
 
 + Each testing will be generated the 2 files (.csv)
-  (1) ReceiveTweets file "[$ServerTime]_ReceiveTweets_[$Msg.Frequency]_[$SchedulerName{F:R:P}].csv"
+  (1) ReceiveTweets file "[$ServerTime]\_ReceiveTweets_[$Msg.Frequency]_[$SchedulerName{F:R:P}].csv"
   - This file contains every received messages at Server-side proxy (message by message) 
     - Ex. 1442069812135_ReceiveTweets_100_P1.csv
 
