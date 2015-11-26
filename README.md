@@ -16,7 +16,7 @@
 
 + Each testing will be generated the 2 files (.csv)
   (1) ReceiveTweets file "[$ServerTime]\_ReceiveTweets_[$Msg.Frequency]_[$SchedulerName{F:C:P}].csv"
-  Mark : $SchedulerName{F:C:P} ; F=FIFO, C= Disaster-Related, P= Our Method
+    Mark : $SchedulerName{F:C:P} ; F=FIFO, C= Disaster-Related, P= Our Method
   - This file contains every received messages at Server-side proxy (message by message) 
     - Ex. 1442069812135_ReceiveTweets_100_P1.csv
 
