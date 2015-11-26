@@ -22,6 +22,7 @@
   - The definition of fields in the record of ReceiveTweets file (1) is
     >Msg.Order,ServerTime,Related{0:1},Urgent{0:1},Unique{0:1},CriticalMsg{0:1},
     TOPIC,ArrivalTime,MsgSize(Byte),INDEXOriginal,TWEETS
+    
     >Ex. 10,1442069813774,0,0,1,0,off-topic,0,73,17,Been jammin to it ever since.
   
   (2) SnapShot file "[$ServerTime]_SnapShot.csv"
@@ -30,5 +31,6 @@
     
   - The definition of fields in the record of SnapShot file (2) is
     >AtSecond,SUM(CriticalMsg),SUM(ALLMsg),SUM(MsgSize(Byte))
-    >Ex. 10,18,520,56536
+   
+     >Ex. 10,18,520,56536
 
