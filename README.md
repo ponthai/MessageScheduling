@@ -25,5 +25,5 @@
   
 + The definition of field in record of ReceiveTweets file (1) is
 
-Msg.Order,ServerTime,Related{0:1},Urgent{0:1},Unique{0:1},CriticalMsg.{0:1},TOPIC,ArrivalTime,Msg.Size(Byte),INDEXOriginal,TWEETS
+Msg.Order,ServerTime,Related{0:1},Urgent{0:1},Unique{0:1},CriticalMsg{0:1},TOPIC,ArrivalTime,Msg.Size(Byte),INDEXOriginal,TWEETS
 Ex. 10,1442069813774,0,0,1,0,off-topic,0,73,17,Been jammin to it ever since.
