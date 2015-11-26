@@ -18,13 +18,17 @@
   (1) ReceiveTweets file "[$ServerTime]_ReceiveTweets_[$Msg.Frequency]_[$SchedulerName{F:R:P}].csv"
   - This file contains every received messages at Server-side proxy (message by message) 
     - Ex. 1442069812135_ReceiveTweets_100_P1.csv
+
+  - The definition of fields in the record of ReceiveTweets file (1) is
+    >Msg.Order,ServerTime,Related{0:1},Urgent{0:1},Unique{0:1},CriticalMsg{0:1},
+    TOPIC,ArrivalTime,MsgSize(Byte),INDEXOriginal,TWEETS
+    >Ex. 10,1442069813774,0,0,1,0,off-topic,0,73,17,Been jammin to it ever since.
   
   (2) SnapShot file "[$ServerTime]_SnapShot.csv"
   - This file contains only critical message at Server-side proxy (SUM Critical message/10second)
     - Ex. 1442069812135_SnapShot.csv
-  
-+ The definition of fields in the record of ReceiveTweets file (1) is
+    
+  - The definition of fields in the record of SnapShot file (2) is
+    >AtSecond,SUM(CriticalMsg),SUM(ALLMsg),SUM(MsgSize(Byte))
+    >Ex. 10,18,520,56536
 
-Msg.Order,ServerTime,Related{0:1},Urgent{0:1},Unique{0:1},CriticalMsg{0:1},TOPIC,ArrivalTime,Msg.Size(Byte),INDEXOriginal,TWEETS
-
-Ex. 10,1442069813774,0,0,1,0,off-topic,0,73,17,Been jammin to it ever since.
