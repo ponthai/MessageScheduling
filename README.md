@@ -1,6 +1,11 @@
-# MessageScheduling
-+ This is repository for research purpose
-+ Research Topic on "Critical Message Scheduling for disaster scenario"
+Critical Message Scheduling for disaster scenario
+
++ This is repository for research purpose.
++ Research Topic "Critical Message Scheduling for disaster scenario"
++ Author : Mr.Ponthai Klinsompus, Asst.Prof. Dr. Natawut Nupairoj
++ Department of Computer Engineering
++ Chulalongkorn University
++ Email : k.ponthai@gmail.com
 
 + Based on CrisisLexT6 (Crisislex.org) collecting from Server-side proxy application.
 
